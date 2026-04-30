@@ -11,13 +11,12 @@ Features:
 1. Multi-domain training: Train on individual domains or all domains simultaneously
 2. Cross-domain evaluation: Test generalization across different deception types
 3. Class imbalance handling: Weighted sampling and loss function balancing
-4. Early stopping: Prevents overfitting with validation-based patience
-5. Comprehensive metrics: Accuracy, F1 (macro & binary), ROC-AUC
+4. Early stopping: Prevents overfitting
+5. Comprehensive metrics: Accuracy, F1 (macro), ROC-AUC
 6. Automated data loading: Direct download from HuggingFace datasets
 
 
 Installation Requirements
 
-Python 3.8 or higher
-
-CUDA-compatible GPU (optional but recommended)
+1. Python 3.8 or higher
+2. CUDA-compatible GPU (optional but recommended)
