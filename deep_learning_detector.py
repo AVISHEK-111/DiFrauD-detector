@@ -198,13 +198,12 @@ def evaluate(model, loader) -> Dict:
 
     acc    = accuracy_score(all_labels, all_preds)
     f1     = f1_score(all_labels, all_preds, average="macro")
-    f1_pos = f1_score(all_labels, all_preds, average="binary")
     try:
         auc = roc_auc_score(all_labels, all_probs)
     except ValueError:
         auc = float("nan")
 
-    return {"accuracy": acc, "macro_f1": f1, "binary_f1": f1_pos, "roc_auc": auc,
+    return {"accuracy": acc, "macro_f1": f1, "roc_auc": auc,
             "preds": all_preds, "labels": all_labels}
 
 
