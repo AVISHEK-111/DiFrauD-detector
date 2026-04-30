@@ -217,10 +217,8 @@ def train_on_domain(
     Fine-tuning the DistilBERT on a single domain's training split.
     """
 
-    print(f"\n{'='*60}")
     print(f"  Training on: {domain}")
     print(f"  Train: {len(train_records)} | Val: {len(val_records)}")
-    print(f"{'='*60}")
 
     train_dataset = FraudDataset(train_records, tokenizer)
     val_dataset   = FraudDataset(val_records,   tokenizer)
