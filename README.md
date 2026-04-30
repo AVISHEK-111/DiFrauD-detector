@@ -8,12 +8,13 @@ Total: 95,854 samples (37,282 deceptive, 58,572 non-deceptive)
 
 Features:
 
-Multi-domain training: Train on individual domains or all domains simultaneously
-Cross-domain evaluation: Test generalization across different deception types
-Class imbalance handling: Weighted sampling and loss function balancing
-Early stopping: Prevents overfitting with validation-based patience
-Comprehensive metrics: Accuracy, F1 (macro & binary), ROC-AUC
-Automated data loading: Direct download from HuggingFace datasets
+1. Multi-domain training: Train on individual domains or all domains simultaneously
+2. Cross-domain evaluation: Test generalization across different deception types
+3. Class imbalance handling: Weighted sampling and loss function balancing
+4. Early stopping: Prevents overfitting with validation-based patience
+5. Comprehensive metrics: Accuracy, F1 (macro & binary), ROC-AUC
+6. Automated data loading: Direct download from HuggingFace datasets
+
 
 Installation Requirements
 
